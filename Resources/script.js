@@ -23,5 +23,9 @@ function typewriter(){
     }
 
 }
-
+intro.onclick=function(){
+    i=0;
+    intro.innerHTML="";
+    window.typewriter();
+}
 window.typewriter();
